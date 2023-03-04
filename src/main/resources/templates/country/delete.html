@@ -10,6 +10,9 @@
     <form method="post" action="/country/delete">
         <input type="text" name="code" th:value="${code}">
         <button type="submit">送信</button>
+
+         <!-- Lesson16の課題提出の為に追加 -->
+        <a th:href="@{/country/list}">一覧に戻る</a>
     </form>
 </body>
 </html>
